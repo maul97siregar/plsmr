@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 09, 2024 at 03:17 PM
+-- Generation Time: Jun 20, 2024 at 04:41 PM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 7.4.33
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `company_profile`
+-- Database: `plsm_db`
 --
 
 -- --------------------------------------------------------
@@ -249,9 +249,8 @@ CREATE TABLE `tb_master` (
 INSERT INTO `tb_master` (`id_master`, `nama_master`, `isi_master`, `date_created`, `last_modified`, `deskripsi`, `slug_master`, `id_user`) VALUES
 (8, 'Layanan', '<p>Berikut Layanan yang Kami Berikan</p>', '2024-02-14', '2024-02-14', 'Untuk Judul dan sub judul navbar laynan pada landing page', '', 12),
 (11, 'Who We Are', '<p>ybnjmk,lIsi master</p>', '2024-02-14', '2024-02-14', 'untuk di halaman Profile perusahaan', '', 12),
-(12, 'Values', '<p>Benefit yang Kami Berikan</p>', '2024-02-14', '2024-02-14', 'untuk titile values', '', 12),
 (13, 'Feature', '<p>Fitur yang Anda Dapatkan</p>', '2024-02-14', '0000-00-00', 'Title FItur', 'feature', 12),
-(14, 'Kami menawarkan solusi modern untuk mengembangkan bisnis Anda', '<p>HiStack, Make Your Business Simple</p>', '2024-02-14', '2024-02-14', 'HiStack, Make Your Business Simple', '', 12),
+(14, 'Putera Lembah Sabil Manggeng Raya', '<p>Keterangan masih bingung</p>', '2024-02-14', '2024-06-20', 'PLSM Raya', '', 12),
 (15, 'Portfolio', '<p>Periksa Karya Terbaru Kami</p>', '2024-02-14', '0000-00-00', 'Untuk Halaman Portfolio Landing Page', 'portfolio', 12),
 (16, 'Team', '<p>Tim Kerja Keras Kami</p>', '2024-02-14', '0000-00-00', 'Untuk Landing Page', 'team', 12),
 (17, 'Client', '<p>Client yang Kami Miliki</p>', '2024-02-14', '0000-00-00', 'Landing Page Client', 'client', 12),
@@ -319,7 +318,7 @@ CREATE TABLE `tb_setting` (
 --
 
 INSERT INTO `tb_setting` (`id_setting`, `nama_perusahaan`, `alamat`, `no_telepon`, `email`, `profile`, `visi`, `misi`, `sejarah`, `image`) VALUES
-(1, 'HiStack Business Solutions', 'DKI Jakarta, Indonesia', '085281120170', 'maulana.ramadhan.srg@gmail.com', '<p style=\"text-align: center;\"><strong>Profile Perusahaan</strong></p>\r\n<div style=\"text-align: justify;\">Lorem&nbsp;ipsum&nbsp;dolor,&nbsp;sit&nbsp;amet&nbsp;consectetur&nbsp;adipisicing&nbsp;elit.&nbsp;Iusto&nbsp;doloribus&nbsp;non&nbsp;repellat&nbsp;magni&nbsp;inventore&nbsp;nulla&nbsp;ducimus&nbsp;sit&nbsp;veritatis&nbsp;incidunt&nbsp;voluptate&nbsp;consectetur&nbsp;suscipit&nbsp;earum,&nbsp;debitis&nbsp;expedita&nbsp;corporis&nbsp;mollitia&nbsp;maiores&nbsp;beatae&nbsp;accusantiumLorem&nbsp;ipsum&nbsp;dolor,&nbsp;sit&nbsp;amet&nbsp;consectetur&nbsp;adipisicing&nbsp;elit.&nbsp;Iusto&nbsp;doloribus&nbsp;non&nbsp;repellat&nbsp;magni&nbsp;inventore&nbsp;nulla&nbsp;ducimus&nbsp;sit&nbsp;veritatis&nbsp;incidunt&nbsp;voluptate&nbsp;consectetur&nbsp;suscipit&nbsp;earum,&nbsp;debitis&nbsp;expedita&nbsp;corporis&nbsp;mollitia&nbsp;maiores&nbsp;beatae&nbsp;accusantium?Lorem&nbsp;ipsum&nbsp;dolor,&nbsp;sit&nbsp;amet&nbsp;consectetur&nbsp;adipisicing&nbsp;elit.&nbsp;Iusto&nbsp;doloribus&nbsp;non&nbsp;repellat&nbsp;magni&nbsp;inventore&nbsp;nulla&nbsp;ducimus&nbsp;sit&nbsp;veritatis&nbsp;incidunt&nbsp;voluptate&nbsp;consectetur&nbsp;suscipit&nbsp;earum,&nbsp;debitis&nbsp;expedita&nbsp;corporis&nbsp;mollitia&nbsp;maiores&nbsp;beatae&nbsp;accusantiumLorem&nbsp;ipsum&nbsp;dolor,&nbsp;sit&nbsp;amet&nbsp;consectetur&nbsp;adipisicing&nbsp;elit.&nbsp;Iusto&nbsp;doloribus&nbsp;non&nbsp;repellat&nbsp;magni&nbsp;inventore&nbsp;nulla&nbsp;ducimus&nbsp;sit&nbsp;veritatis&nbsp;incidunt&nbsp;voluptate&nbsp;consectetur&nbsp;suscipit&nbsp;earum,&nbsp;debitis&nbsp;expedita&nbsp;corporis&nbsp;mollitia&nbsp;maiores&nbsp;beatae&nbsp;accusantium?</div>', '<p style=\"text-align: center;\"><strong>Visi Perusahaan</strong></p>\r\n<p>Menjadi perusahaan jasa teknologi yang profesional, efektif, efisien, terpercaya&nbsp;dalam mengerakkan ekonomi digital di Indonesia dan menjadi perusahaan yang terdepan dalam pembentukan service excellent di internal divisi perusahaan.</p>', '<p style=\"text-align: center;\"><strong><span class=\"example1\">Misi Perusahaan</span></strong></p>\r\n<p style=\"text-align: justify;\"><span class=\"example1\">Top of mind dari Misi kami yaitu excelent services and development digital business dengan aspek sebagai berikut</span></p>\r\n<ol style=\"list-style-type: undefined;\">\r\n<li style=\"text-align: justify;\"><span class=\"example1\">Mendorong dan mendukung kemajuan teknologi digital di Indonesia</span></li>\r\n<li style=\"text-align: justify;\"><span class=\"example1\">Memberikan kualitas layanan yang terbaik kepada para mitra kerja / client secara konsisten dengan tetap memperhatikan efisiensi dan control.</span></li>\r\n<li style=\"text-align: justify;\"><span class=\"example1\">Solusi transformasi digital yang inovatif dan meningkat produktivitas kepada pelanggan dan mitra bisnis kami</span></li>\r\n<li style=\"text-align: justify;\"><span class=\"example1\">Memperbaiki / minimalisasi pengelolaan resiko dan administrasi operasional secara terus</span></li>\r\n<li style=\"text-align: justify;\"><span class=\"example1\">Mengembangkan sumber daya manusia yang profesional dalam rangka pembentukan marketing force dari waktu ke waktu.<br /><br /></span></li>\r\n</ol>', '<p style=\"text-align: center;\"><strong>Sejarah Perusahaan</strong></p>\r\n<div>Lorem&nbsp;ipsum&nbsp;dolor,&nbsp;sit&nbsp;amet&nbsp;consectetur&nbsp;adipisicing&nbsp;elit.&nbsp;Iusto&nbsp;doloribus&nbsp;non&nbsp;repellat&nbsp;magni&nbsp;inventore&nbsp;nulla&nbsp;ducimus&nbsp;sit&nbsp;veritatis&nbsp;incidunt&nbsp;voluptate&nbsp;consectetur&nbsp;suscipit&nbsp;earum,&nbsp;debitis&nbsp;expedita&nbsp;corporis&nbsp;mollitia&nbsp;maiores&nbsp;beatae&nbsp;accusantiumLorem&nbsp;ipsum&nbsp;dolor,&nbsp;sit&nbsp;amet&nbsp;consectetur&nbsp;adipisicing&nbsp;elit.&nbsp;Iusto&nbsp;doloribus&nbsp;non&nbsp;repellat&nbsp;magni&nbsp;inventore&nbsp;nulla&nbsp;ducimus&nbsp;sit&nbsp;veritatis&nbsp;incidunt&nbsp;voluptate&nbsp;consectetur&nbsp;suscipit&nbsp;earum,&nbsp;debitis&nbsp;expedita&nbsp;corporis&nbsp;mollitia&nbsp;maiores&nbsp;beatae&nbsp;accusantium?Lorem&nbsp;ipsum&nbsp;dolor,&nbsp;sit&nbsp;amet&nbsp;consectetur&nbsp;adipisicing&nbsp;elit.&nbsp;Iusto&nbsp;doloribus&nbsp;non&nbsp;repellat&nbsp;magni&nbsp;inventore&nbsp;nulla&nbsp;ducimus&nbsp;sit&nbsp;veritatis&nbsp;incidunt&nbsp;voluptate&nbsp;consectetur&nbsp;suscipit&nbsp;earum,&nbsp;debitis&nbsp;expedita&nbsp;corporis&nbsp;mollitia&nbsp;maiores&nbsp;beatae&nbsp;accusantiumLorem&nbsp;ipsum&nbsp;dolor,&nbsp;sit&nbsp;amet&nbsp;consectetur&nbsp;adipisicing&nbsp;elit.&nbsp;Iusto&nbsp;doloribus&nbsp;non&nbsp;repellat&nbsp;magni&nbsp;inventore&nbsp;nulla&nbsp;ducimus&nbsp;sit&nbsp;veritatis&nbsp;incidunt&nbsp;voluptate&nbsp;consectetur&nbsp;suscipit&nbsp;earum,&nbsp;debitis&nbsp;expedita&nbsp;corporis&nbsp;mollitia&nbsp;maiores&nbsp;beatae&nbsp;accusantium?</div>', 'WhatsApp_Image_2023-10-13_at_19_23_10-removebg-preview.png');
+(1, 'PLSM Raya', 'DKI Jakarta, Indonesia', '08520000', 'plsm@gmail.com', '<p style=\"text-align: center;\">Profile PLSM</p>', '<p style=\"text-align: center;\"><strong>Visi Perusahaan</strong></p>\r\n<p>Visi PLSM</p>', '<p style=\"text-align: center;\"><strong><span class=\"example1\">Misi Perusahaan</span></strong></p>\r\n<ol style=\"list-style-type: undefined;\">\r\n<li style=\"text-align: justify;\"><span class=\"example1\">Misi PLSM<br /><br /></span></li>\r\n</ol>', '<p style=\"text-align: center;\">Sejarah PLSM</p>', 'logo_PLSMR_page-0001-removebg-preview.png');
 
 -- --------------------------------------------------------
 
@@ -381,7 +380,9 @@ INSERT INTO `tb_user` (`id_user`, `id_kategori`, `nama`, `email`, `image`, `pass
 (8, 0, 'Fajar Adi Setyawan', 'fajaras465@gmail.com', 'default.png', '$2y$10$w3rY5muFCdEwq/07TEAjkObNJQIuUoD.ijnfzitVzbeszXsZfKBDK', 1, 1, 1619930486),
 (9, 0, 'Pramah Eli Hia', 'pramah@pramah.com', 'default.png', '$2y$10$QcR3ZC1W.cahpg.1XCsiruPngbwTNTcPk9UimisWRe4sNA3BoBDd6', 1, 1, 1619931734),
 (12, 0, 'Ferdinand Budiarto', 'admin@admin.com', 'default.png', '$2y$10$uvJFub3TeCrwFmPMgHuZbOrG7cpr4wE7fAPflajps3VZsOr2lDkPa', 1, 1, 1707633208),
-(13, 0, 'maulana ramadhan', 'maulanasiregar975@gmail.com', 'default.png', '$2y$10$tXho0QUjLT3etlEBBsx9qOCrfvUsuIZPlFvsQ.B5KoNv.ScvTzYdm', 1, 1, 1709311430);
+(13, 0, 'maulana ramadhan', 'maulanasiregar975@gmail.com', 'default.png', '$2y$10$tXho0QUjLT3etlEBBsx9qOCrfvUsuIZPlFvsQ.B5KoNv.ScvTzYdm', 1, 1, 1709311430),
+(14, 0, 'admin', 'maul@gmail.com', 'Blue_and_White_Modern_Eid_Al-Adha_Mubarak_Instagram_Story_(1).png', '$2y$10$WjyWQPnmOoCuC4uSkHKFF.MX4IM72H3YigchrxwjrLR3MMfFzEEra', 1, 1, 1718868140),
+(15, 0, 'nabi;', 'nabil@gmail.com', 'default.png', '$2y$10$S/81qQqOPkKEkOamhmSSnuCciwZwRBzOWoxK8a91NhNDjGe8oTp0S', 2, 1, 1718869089);
 
 -- --------------------------------------------------------
 
@@ -405,7 +406,8 @@ INSERT INTO `tb_user_token` (`id`, `email`, `token`, `date_created`) VALUES
 (7, 'fajaras465@gmail.com', 'HO7/WQkcsS7G0TvCNvGnkF33JXF1VjHHQVuqAVFjv6Q=', 1619930486),
 (10, 'admin@admin.com', 'yflsWf9n1N3KbREEgPpddq2P7FaepO1Esa9xEd758Ps=', 1707633208),
 (11, 'admin@admin.com', 'Exz/M9gMMq92TIjY6KbRkw9cgTdUPvqcC+JnY9jWoN4=', 1709311386),
-(12, 'maulanasiregar975@gmail.com', 'wI3lEMEbfxcINeND2en7ZMW+f9wzL4zxmxeAJG4tjM4=', 1709311482);
+(12, 'maulanasiregar975@gmail.com', 'wI3lEMEbfxcINeND2en7ZMW+f9wzL4zxmxeAJG4tjM4=', 1709311482),
+(13, 'maul@gmail.com', 'UHyqcrZsUx4wtKOdV1mfBsSeQl5nI+e60ju58VRsBdM=', 1718868140);
 
 -- --------------------------------------------------------
 
@@ -424,15 +426,6 @@ CREATE TABLE `tb_values` (
   `date_created` datetime NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
   `gambar_values` varchar(500) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
---
--- Dumping data for table `tb_values`
---
-
-INSERT INTO `tb_values` (`id_values`, `judul_values`, `isi_values`, `id_user`, `slug_values`, `status_values`, `last_modified`, `date_created`, `gambar_values`) VALUES
-(1, 'Accuracy Timeline', '<p>Isi valuesssaasas</p>', 12, 'accuracy-timeline', 'Publish', '2024-02-13 00:00:00', '2024-02-14 01:14:49', 'values-3.png'),
-(3, 'Realtime and Achivement', '<p>Isi valuesddasdasa</p>', 12, 'realtime-and-achivement', 'Publish', '2024-02-13 00:00:00', '2024-02-14 01:14:04', 'values-2.png'),
-(4, 'Monitoring and Controlling ', '<p>Isi valueser</p>', 12, 'monitoring-and-controlling', 'Publish', '2024-02-13 00:00:00', '2024-02-14 01:13:18', 'values-11.png');
 
 --
 -- Indexes for dumped tables
@@ -608,13 +601,13 @@ ALTER TABLE `tb_staff`
 -- AUTO_INCREMENT for table `tb_user`
 --
 ALTER TABLE `tb_user`
-  MODIFY `id_user` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+  MODIFY `id_user` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 
 --
 -- AUTO_INCREMENT for table `tb_user_token`
 --
 ALTER TABLE `tb_user_token`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 
 --
 -- AUTO_INCREMENT for table `tb_values`

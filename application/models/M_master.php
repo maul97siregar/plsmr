@@ -61,12 +61,7 @@ class M_master extends CI_Model
   {
     $validations = $this->validation($data->nama_master);
 
-    if($validations == null){
-          $this->session->set_flashdata('error', 'Data Master Telah Ada');
-          redirect('master/tambah');
-          return;
-    }
-    
+
     $this->db->where('id_master', $data['id_master']);
     $this->db->update('tb_master', $data);
   }
